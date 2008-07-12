@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2295
+
+This script is based on vimtip #146. It enables you to open any amount of files at once using the edit command. You can simply provide multiple parameters or use glob patterns.
+
+Examples:
+
+:edit foo.txt bar.txt
+:edit foo/**/*.txt
+
+UPDATE:
+I just found out that :args does just what this script tries to do.
